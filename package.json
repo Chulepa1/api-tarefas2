@@ -2,9 +2,20 @@
   "repository": "https://github.com/vercel/examples.git",
   "license": "MIT",
   "private": true,
+
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.3.2"
+  },
+
   "devDependencies": {
     "@types/node": "^17.0.42",
     "@vercel/node": "^2.9.6",
-    "typescript": "^4.7.3"
-  }
+    "typescript": "^4.7.3",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "node index mongodb+srv://guireis:Guireis2@cluster0.bgcl2d2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    }
+
 }
